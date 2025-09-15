@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan layout</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #00BFFF; /* biru full background */
+        }
+
+        header {
+            background-color: #00BFFF;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            font-weight: bold;
+            border: 1px solid white;
+        }
+
+        nav {
+            background-color: #00BFFF;
+            padding: 10px;
+            text-align: left;
+            border: 1px solid white;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 25px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        aside {
+            width: 25%;
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        .box {
+            padding: 40px; /* besar sesuai contoh */
+            margin-bottom: 10px;
+            text-align: center;
+            
+        }
+
+        .calendar {
+            background-color: #ADFF2F; /* hijau neon */
+            height: 75px;
+            padding-top: 0;
+        }
+
+        .iklan {
+            background-color: #C71585; /* pink gelap */
+            color: black;
+            height:30PX;
+            padding-top: 0;
+        }
+
+        article {
+            flex: 1;
+            border: 1px solid white;
+            background-color: #00BFFF;
+            color: black;
+            padding: 10px;
+        }
+
+        article h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #00BFFF;
+            text-align: center;
+            color: black;
+            font-size: 14px;
+           
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>DESAIN WEB</header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </nav>
+
+        <div class="container">
+            <aside>
+                <div class="box calendar">Calender</div>
+                <div class="box iklan">Iklan</div>
+                <div class="box iklan">Iklan</div>
+            </aside>
+
+            <article>
+                <h2>Layout</h2>
+                <p>
+                    Dalam dunia desain, Layout berbicara mengenai bagaimana penataan elemen-elemen 
+                    dalam sebuah halaman dengan benar. Sama seperti tipografi, terdapat sangat 
+                    banyak elemen-elemen halaman yang tentunya tidak akan dapat dibahas pada bagian 
+                    ini sendiri. Pembahasan Layout secara menyeluruh akan memerlukan bukunya tersendiri. 
+                    Kita akan hanya melihat elemen-elemen layout yang umumnya ditemukan pada dokumen web, 
+                    dan bagaimana membuat elemen-elemen tersebut dengan HTML dan CSS.
+                </p>
+            </article>
+        </div>
+
+        <footer>Copyright © 2012 Desain Web Class</footer>
+    </div>
+</body>
+</html>
